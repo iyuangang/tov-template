@@ -4,7 +4,14 @@
 
 declare module 'vue' {
   export interface GlobalComponents {
-    
+    'IMdi:accountBoxMultiple': typeof import('~icons/mdi/account-box-multiple')['default']
+    'IMdi:alertBoxOutline': typeof import('~icons/mdi/alert-box-outline')['default']
+    'IMdi:earth': typeof import('~icons/mdi/earth')['default']
+    'IMdi:hammerSickle': typeof import('~icons/mdi/hammer-sickle')['default']
+    NButton: typeof import('naive-ui')['NButton']
+    NCard: typeof import('naive-ui')['NCard']
+    NConfigProvider: typeof import('naive-ui')['NConfigProvider']
+    NSpace: typeof import('naive-ui')['NSpace']
   }
 }
 
